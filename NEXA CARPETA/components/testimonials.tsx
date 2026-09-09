@@ -4,14 +4,20 @@ const testimonials = [
   {
     quote: 'Nexa eliminó el dolor de cabeza de armar la nómina a fin de mes. Ahora las horas se calculan solas.',
     name: 'Martín Herrera',
+    role: 'Dueño de Franquicia',
+    avatar: 'https://github.com/mvdigitalworkspace/NEXA-IMAGENES/blob/main/MARTIN%20HERRERA.png?raw=true',
   },
   {
-    quote: 'Dejé de manejar planillas de papel. Veo en tiempo real quién fichó en cada una de mis tres sucursales.',
-    name: 'Lucía Bianchi',
+    quote: 'Dejé de manejar planillas de papel. Veo en tiempo real quién fichó en cada una de mis sucursales.',
+    name: 'Vanesa Galletti',
+    role: 'Gerente Comercial',
+    avatar: 'https://github.com/mvdigitalworkspace/NEXA-IMAGENES/blob/main/VANESA%20GALLETTI.png?raw=true',
   },
   {
     quote: 'El GPS me da la tranquilidad de que fichan realmente en el local. Recuperé horas de control cada semana.',
     name: 'Diego Fernández',
+    role: 'Administrador',
+    avatar: 'https://github.com/mvdigitalworkspace/NEXA-IMAGENES/blob/main/DIEGO%20FERNANDEZ.png?raw=true',
   },
 ]
 
@@ -37,10 +43,10 @@ export function Testimonials() {
               </blockquote>
 
               <figcaption className="mt-6 flex items-center gap-3">
-                <div className="size-10 shrink-0 rounded-full bg-slate-200" aria-hidden="true" />
+                <img src={t.avatar} alt={t.name} className="size-10 shrink-0 rounded-full object-cover" />
                 <div>
                   <p className="text-sm font-semibold text-slate-900">{t.name}</p>
-                  <p className="text-sm text-slate-500">Dueño de Franquicia</p>
+                  <p className="text-sm text-slate-500">{t.role}</p>
                 </div>
               </figcaption>
             </figure>

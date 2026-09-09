@@ -29,7 +29,7 @@ export function Faq() {
       <div className="mx-auto grid max-w-6xl items-start gap-10 md:grid-cols-2 md:gap-16">
         {/* Left: intro */}
         <div className="md:sticky md:top-24">
-          <div className="flex size-14 items-center justify-center rounded-2xl bg-blue-100 text-blue-600">
+          <div className="flex size-14 items-center justify-center rounded-2xl bg-orange-100 text-orange-600">
             <MessageCircleHeart className="size-7" aria-hidden="true" />
           </div>
           <h2 className="mt-6 text-balance text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
@@ -58,7 +58,7 @@ export function Faq() {
                   >
                     {faq.question}
                     <ChevronDown
-                      className={`size-5 shrink-0 text-blue-600 transition-transform duration-200 ${
+                      className={`size-5 shrink-0 text-orange-500 transition-transform duration-200 ${
                         isOpen ? 'rotate-180' : ''
                       }`}
                       aria-hidden="true"

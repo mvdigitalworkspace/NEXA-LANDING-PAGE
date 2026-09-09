@@ -17,7 +17,7 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-6 pt-20 pb-16 sm:pt-28 lg:grid-cols-2 lg:gap-8">
       {/* Left: copy */}
       <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-        <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-4 py-1.5 text-sm font-medium text-emerald-600">
+        <span className="inline-flex items-center gap-2 rounded-full bg-orange-100 px-4 py-1.5 text-sm font-medium text-orange-600">
           {"🚀 Nueva forma de gestionar tu franquicia"}
         </span>
 
@@ -33,7 +33,7 @@ export function Hero() {
         <div className="mt-10 flex flex-col items-center lg:items-start">
           <a
             href="#"
-            className="rounded-lg bg-blue-600 px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-blue-700"
+            className="rounded-lg bg-orange-600 px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-orange-700"
           >
             Crear mi cuenta gratis
           </a>
@@ -48,11 +48,11 @@ export function Hero() {
         {/* tech glow aura behind phone */}
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute left-1/2 top-1/2 -z-0 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-400/20 blur-3xl"
+          className="pointer-events-none absolute left-1/2 top-1/2 -z-0 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-orange-400/20 blur-3xl"
         />
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute left-[60%] top-[40%] -z-0 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-400/20 blur-3xl"
+          className="pointer-events-none absolute left-[60%] top-[40%] -z-0 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-slate-400/20 blur-3xl"
         />
         <div className="relative z-10 w-[280px] rounded-[2.5rem] border-[10px] border-slate-900 bg-slate-900 shadow-2xl">
           {/* notch */}
@@ -65,14 +65,14 @@ export function Hero() {
                   <p className="text-xs text-slate-500">Buen día,</p>
                   <p className="text-sm font-bold text-slate-900">Sucursal Centro</p>
                 </div>
-                <div className="h-9 w-9 rounded-full bg-emerald-100" />
+                <div className="h-9 w-9 rounded-full bg-orange-100" />
               </div>
 
               {/* mini map */}
               <div className="relative h-32 overflow-hidden rounded-xl bg-slate-200">
-                <div className="absolute inset-0 bg-gradient-to-br from-emerald-100 to-slate-200" />
-                <div className="absolute left-6 top-8 h-16 w-16 rounded-full border-2 border-emerald-500/40 bg-emerald-500/10" />
-                <div className="absolute left-[54px] top-[62px] flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-emerald-600 shadow-lg">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-100 to-slate-200" />
+                <div className="absolute left-6 top-8 h-16 w-16 rounded-full border-2 border-orange-500/40 bg-orange-500/10" />
+                <div className="absolute left-[54px] top-[62px] flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-600 shadow-lg">
                   <MapPin className="h-4 w-4 text-white" aria-hidden="true" />
                 </div>
                 <div className="absolute inset-x-4 top-4 h-1.5 rounded-full bg-white/60" />
@@ -87,7 +87,7 @@ export function Hero() {
               {/* clock-in button */}
               <button
                 type="button"
-                className="w-full rounded-xl bg-emerald-500 py-3 text-sm font-bold text-white shadow-lg shadow-emerald-500/30"
+                className="w-full rounded-xl bg-orange-600 py-3 text-sm font-bold text-white shadow-lg shadow-orange-600/30"
               >
                 Fichar Entrada
               </button>

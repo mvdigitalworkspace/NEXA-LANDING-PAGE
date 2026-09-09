@@ -96,7 +96,7 @@ export function SiteFooter() {
                   key={social.label}
                   href="#"
                   aria-label={social.label}
-                  className="flex size-10 items-center justify-center rounded-lg bg-slate-800 text-slate-300 transition-colors hover:bg-blue-600 hover:text-white"
+                  className="flex size-10 items-center justify-center rounded-lg bg-slate-800 text-slate-300 transition-colors hover:bg-orange-600 hover:text-white"
                 >
                   <social.icon className="size-5" aria-hidden="true" />
                 </a>

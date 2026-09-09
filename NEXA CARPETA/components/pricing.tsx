@@ -66,11 +66,11 @@ export function Pricing() {
             key={plan.title}
             className={`flex h-full flex-col rounded-2xl bg-white p-6 shadow-lg transition-transform duration-200 hover:-translate-y-1 ${
               plan.featured
-                ? 'border-2 border-blue-600 shadow-xl md:-mt-4 md:pb-10'
+                ? 'border-2 border-orange-600 shadow-xl md:-mt-4 md:pb-10'
                 : 'border border-slate-200'
             }`}
           >
-            <span className="inline-flex w-fit items-center rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-700">
+            <span className="inline-flex w-fit items-center rounded-full bg-orange-100 px-3 py-1 text-sm font-medium text-orange-600">
               🎁 7 días de prueba gratis
             </span>
 
@@ -86,7 +86,7 @@ export function Pricing() {
             <ul className="mt-6 flex flex-col gap-3">
               {plan.features.map((feature) => (
                 <li key={feature} className="flex items-start gap-3">
-                  <Check className="mt-0.5 h-5 w-5 shrink-0 text-emerald-600" aria-hidden="true" />
+                  <Check className="mt-0.5 h-5 w-5 shrink-0 text-orange-500" aria-hidden="true" />
                   <span className="text-slate-700">{feature}</span>
                 </li>
               ))}
@@ -94,7 +94,7 @@ export function Pricing() {
 
             <button
               type="button"
-              className="mt-8 w-full rounded-lg bg-blue-600 px-4 py-3 font-semibold text-white transition-colors hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              className="mt-8 w-full rounded-lg bg-orange-600 px-4 py-3 font-semibold text-white transition-colors hover:bg-orange-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
             >
               Comenzar prueba gratis
             </button>
